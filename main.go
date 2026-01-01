@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/joho/godotenv"
 	"github-webhook/src"
 	"github-webhook/src/config"
 	"log"
@@ -9,6 +10,11 @@ import (
 )
 
 func main() {
+	// Load .env file
+	if err := godotenv.Load(); err != nil {
+		log.Println("⚠️ No .env file found, relying on environment variables")
+	}
+
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", src.Home)
 	mux.HandleFunc("/github", src.GitHubWebhook)
