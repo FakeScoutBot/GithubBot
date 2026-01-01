@@ -2,7 +2,7 @@
 
 A powerful, lightweight Go application that forwards GitHub webhook events to Telegram chats with rich, customizable notifications.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAshokShau%2Fgithub-telegram-notify)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FFakeScoutBot%2FGithubBot)
 
 This tool acts as a bridge between your GitHub repositories and your Telegram chats. It listens for over 40 different GitHub events—from code pushes and pull requests to security alerts and deployments—and transforms them into well-formatted, easy-to-read Telegram messages.
 
