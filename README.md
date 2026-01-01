@@ -43,7 +43,7 @@ A full list of supported events can be found in the `src/utils/githubEvents.go` 
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/AshokShau/github-telegram-notify.git
+    git clone https://github.com/FakeScoutBot/GithubBot.git
     cd github-telegram-notify
     ```
 
