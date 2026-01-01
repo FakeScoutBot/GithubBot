@@ -1,4 +1,4 @@
-#GitHub 
+#GitHu
 
 A powerful, lightweight Go application that forwards GitHub webhook events to Telegram chats with rich, customizable notifications.
 
