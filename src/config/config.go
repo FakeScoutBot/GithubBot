@@ -1,10 +1,6 @@
 package config
 
-import (
-	"os"
-)
-
 var (
-	Port     = os.Getenv("PORT")
-	BotToken = os.Getenv("TOKEN")
+	Port     = "3000"
+	BotToken = "7643298342:AAHnnNMwFHdGQZbQaKdFG61LdcsNL_S-fUs"
 )
